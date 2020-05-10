@@ -1,0 +1,13 @@
+How to Run The Tests within your directory
+python3.6 -m unittest
+
+How to run all tests in a specific Module?
+python3.6 -m unittest tests.test_wealth_manger
+or
+python3.6 -m unittest tests.test_wealth_manger.py
+
+How to run specific Test Case within a Module?
+python3.6 -m unittest tests.test_wealth_manger.TestCalculate
+
+How to run Specific method within a test case
+python3.6 -m unittest tests.test_wealth_manger.TestCalculate.test_calculate_easy_first
